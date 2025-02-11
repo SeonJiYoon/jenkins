@@ -15,7 +15,7 @@ jobs:
       with:
         java-version: '17' 
         distribution: 'temurin'
-        cache: maven # Maven 의존성 캐시 활성화
+        cache: 'maven' # Maven 의존성 캐시 활성화
     - name: Build with Maven
       run: mvn clean install -DskipTests -f ./SpringProjectForJenkins/pom.xml # 빌드 및 의존성 설치 (테스트는 건너뛰기)
 
