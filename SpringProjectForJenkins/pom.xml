@@ -249,7 +249,7 @@
 			<artifactId>tomcat-maven-plugin</artifactId>
 			<version>1.1</version>
 			<configuration>
-				<url>http://d30d-14-36-141-71.ngrok-free.app/manager/text</url>
+				<url>https://c429-14-36-141-71.ngrok-free.app/manager/text</url>
 				<path>/${project.build.finalName}</path>
 				<username>tomcat</username>
 				<password>tomcat</password>
